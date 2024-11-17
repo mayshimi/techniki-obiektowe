@@ -1,0 +1,41 @@
+.slider-container {
+    position: relative;
+    width: 40%; /* Szerokość slidera */
+    max-width: 600px; /* Maksymalna szerokość */
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .slider-image {
+    width: 100%; /* Ustawiamy szerokość na 100% kontenera */
+    height: 600px; /* Ustalona wysokość dla wszystkich obrazów */
+    object-fit: cover; /* Obraz będzie skalowany, aby wypełnić kontener */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 20px; /* Zmniejszenie rozmiaru czcionki */
+    border: none;
+    padding: 8px; /* Zmniejszenie paddingu */
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .prev-btn {
+    left: 10px; /* Zmniejszenie odległości od lewej */
+  }
+  
+  .next-btn {
+    right: 10px; /* Zmniejszenie odległości od prawej */
+  }
+  
+  .prev-btn:hover, .next-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  

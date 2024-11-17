@@ -1,0 +1,44 @@
+/* Stylowanie kontenera licznika */
+.Counter {
+    background-color: #ffffff; /* Białe tło */
+    padding: 20px;
+    border-radius: 10px; /* Zaokrąglone rogi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Delikatny cień wokół kontenera */
+    max-width: 400px; /* Maksymalna szerokość kontenera */
+    margin: 0 auto; /* Wyśrodkowanie na stronie */
+    text-align: center; /* Wyrównanie tekstu do środka */
+    margin-top: 30px; /* Odstęp od innych elementów */
+  }
+  
+  /* Stylowanie tekstu w liczniku */
+  .Counter p {
+    font-size: 18px;
+    color: #444; /* Ciemniejszy odcień szarości */
+    font-weight: 500;
+    margin-bottom: 20px; /* Odstęp od przycisku */
+  }
+  
+  /* Stylowanie przycisku */
+  .Counter button {
+    padding: 12px 24px;
+    background-color: #9b8fdb; /* Pastelowy fioletowy */
+    color: #ffffff; /* Biały tekst na przycisku */
+    border: none;
+    border-radius: 5px; /* Zaokrąglone rogi przycisku */
+    cursor: pointer; /* Wskaźnik w kształcie ręki */
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Płynne przejście */
+  }
+  
+  /* Efekt najechania na przycisk */
+  .Counter button:hover {
+    background-color: #7a6ed2; /* Ciemniejszy fioletowy po najechaniu */
+    transform: scale(1.1); /* Powiększenie przycisku */
+  }
+  
+  /* Stylowanie przycisku, kiedy licznik osiąga pewną wartość */
+  .Counter button:active {
+    background-color: #6c5bd0; /* Jeszcze ciemniejszy fiolet przy kliknięciu */
+    transform: scale(1); /* Normalny rozmiar przy wciśnięciu */
+  }
+  

@@ -1,0 +1,135 @@
+/* Stylowanie całej aplikacji */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f6fb; /* Jasny, pastelowy błękit */
+}
+
+/* Stylowanie konteneru zakładek */
+.tabs {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; /* Wyrównanie przycisków do środka */
+  gap: 20px; /* Odstęp między przyciskami */
+}
+
+/* Stylowanie przycisków zakładek */
+.tabs button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #9b8fdb; /* Pastelowy fioletowy z niebieskimi tonami */
+  border: none;
+  border-radius: 25px; /* Zaokrąglone rogi */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; /* Płynna zmiana wyglądu */
+}
+
+/* Efekt po najechaniu na przycisk */
+.tabs button:hover {
+  background-color: #7a6ed2; /* Ciemniejszy odcień fioletu z niebieskimi tonami po najechaniu */
+  transform: scale(1.1); /* Powiększenie przycisku */
+}
+
+/* Stylowanie dla aktywnej zakładki */
+.tabs button.active {
+  background-color: #b49bff; /* Jasny, pastelowy fiolet dla aktywnej zakładki */
+  transform: scale(1.1); /* Zwiększenie przycisku */
+}
+
+/* Stylowanie treści */
+.content {
+  margin-top: 40px;
+  font-size: 18px;
+  padding: 20px;
+  background-color: #ffffff; /* Biały, czysty tło */
+  border-radius: 10px; /* Zaokrąglone rogi */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Dodanie cienia do kontenera */
+  color: #444; /* Ciemniejszy tekst */
+}
+
+/* Stylowanie nagłówka */
+header {
+  background-color: #9b8fdb; /* Pastelowy fioletowy z niebieskimi tonami */
+  padding: 20px 0;
+  color: #fff; /* Biały tekst */
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cień pod nagłówkiem */
+}
+
+/* Stylowanie nagłówka */
+h2 {
+  font-size: 24px;
+  color: #8c7cdc; /* Chłodny, pastelowy fioletowy odcień dla nagłówka */
+  margin-bottom: 10px;
+}
+
+/* Stylowanie licznika */
+.Counter {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.Counter p {
+  font-size: 18px;
+  color: #444;
+}
+
+.Counter button {
+  padding: 12px 24px;
+  background-color: #9b8fdb; /* Pastelowy fioletowy */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.Counter button:hover {
+  background-color: #7a6ed2; /* Ciemniejszy fiolet po najechaniu */
+  transform: scale(1.1); /* Powiększenie przycisku */
+}
+
+/* Stylowanie stopki */
+footer {
+  background-color: #9b8fdb; /* Pastelowy fioletowy */
+  padding: 20px 0;
+  color: #fff; /* Biały tekst */
+  text-align: center;
+  font-size: 16px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Cień pod stopką */
+}
+
+/* Stylowanie obrazków w ImageSlider */
+img {
+  max-width: 100%;
+  border-radius: 8px; /* Zaokrąglone rogi dla obrazków */
+  border: 4px solid #e4e4f7; /* Delikatny, pastelowy fioletowy obrys wokół obrazka */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cień wokół obrazka */
+}
+
+/* Stylowanie dla przycisków w ImageSlider */
+button {
+  padding: 12px 24px;
+  background-color: #9b8fdb; /* Pastelowy fioletowy */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #7a6ed2; /* Ciemniejszy fiolet po najechaniu */
+}
