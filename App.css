@@ -4,6 +4,28 @@
   text-align: center;
   padding: 20px;
   background-color: #f4f6fb; /* Jasny, pastelowy błękit */
+  position: relative; /* Aby elementy były wyświetlane na tle */
+  overflow: hidden; /* Zablokowanie nadmiaru tła */
+}
+
+/* Tło na całą stronę (tylko pod zawartością) */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/background.jpg'); /* Ścieżka do obrazu tła */
+  background-size: cover; /* Dopasowanie obrazu do tła */
+  background-position: center;
+  filter: blur(8px); /* Efekt rozmycia */
+  z-index: -1; /* Tło znajduje się pod wszystkimi innymi elementami */
+}
+
+/* Nowy wrapper dla treści, aby wykluczyć tło z nagłówka i stopki */
+.content-wrapper {
+  position: relative; /* Zapewnia, że zawartość będzie na wierzchu tła */
+  z-index: 1; /* Zawartość znajduje się nad tłem */
 }
 
 /* Stylowanie konteneru zakładek */
